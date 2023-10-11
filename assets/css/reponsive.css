@@ -52,6 +52,7 @@
   }
   .main_content {
     margin: 0;
+    margin-top: 145px;
     max-width: none;
     text-align: left;
   }
@@ -90,7 +91,8 @@
     max-width: 80px;
   }
   .img_layout {
-    margin-top: 0;
+    margin-top: 171px;
+    margin-bottom: 150.2px;
   }
   .img_layout img {
     max-width: 741.1px;
