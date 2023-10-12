@@ -86,11 +86,8 @@ header {
   font-weight: 700;
   font-size: 30px;
   line-height: 1.26;
-  -webkit-letter-spacing: 0;
-  -moz-letter-spacing: 0;
-  -ms-letter-spacing: 0;
   letter-spacing: 0;
-  color: var(--theme-ui-colors-textSecondary, #02073e);
+  color: #02073e;
 }
 
 .main_content p {
@@ -125,7 +122,7 @@ header {
 /* BUTTON HEADER LOGIN */
 .button_header_login {
   background-color: transparent;
-  color: var(--theme-ui-colors-text, #343d48);
+  color: #343d48;
   font-size: 16px;
   font-weight: 500;
   top: 50%;
@@ -134,8 +131,6 @@ header {
   border: 0;
   font-family: DM Sans, sans-serif;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   outline: 0;
 }
@@ -150,8 +145,6 @@ header {
   margin: 0;
   min-width: 0;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -159,9 +152,6 @@ header {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   cursor: pointer;
   display: inline-flex;
@@ -178,9 +168,6 @@ header {
   min-width: 0;
   display: flex;
   list-style: none;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
   flex-grow: 1;
   padding: 0;
 }
@@ -192,20 +179,15 @@ header {
 }
 
 .navbar .active {
-  color: var(--theme-ui-colors-primary, #ffc059);
+  color: #ffc059;
 }
 /* icon sponsored */
 .icon_sponsored {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -221,11 +203,7 @@ header {
 .img_layout {
   box-sizing: border-box;
   margin: 0;
-  /* min-width: 0; */
   display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   margin-top: 60px;
 }
@@ -251,9 +229,6 @@ header {
   margin: 0;
   min-width: 0;
   display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   margin-top: 30px;
 }
@@ -269,26 +244,15 @@ header {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  -webkit-text-decoration: none;
   text-decoration: none;
   border: 0;
-  border-radius: 4px;
-  background-color: var(--theme-ui-colors-primary, #ffc059);
+  background-color: #ffc059;
   border-radius: 5px;
   cursor: pointer;
   display: inline-flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  transition: 0.3s ease-in-out 0s;
   white-space: nowrap;
-}
-
-.css_button_email_send:hover {
-  background-color: var(--theme-ui-colors-dark, #10132d);
 }
 
 /* input email */
@@ -299,7 +263,7 @@ header {
   min-width: 0;
   display: block;
   appearance: none;
-  border: 1px solid;
+  border: 0px solid;
 }
 
 /* form send email */
@@ -335,26 +299,6 @@ header {
   line-height: 38px; /* 250% */
 }
 
-.form_email input::-webkit-input-placeholder {
-  color: rgba(2, 7, 62, 0.4);
-  opacity: 1;
-}
-
-.form_email input::-moz-placeholder {
-  color: rgba(2, 7, 62, 0.4);
-  opacity: 1;
-}
-
-.form_email input:-ms-input-placeholder {
-  color: rgba(2, 7, 62, 0.4);
-  opacity: 1;
-}
-
-.form_email input::placeholder {
-  color: rgba(2, 7, 62, 0.4);
-  opacity: 1;
-}
-
 .form_email button {
   font-size: 12px;
   min-height: 40px;
@@ -368,7 +312,6 @@ header {
   clip: rect(1px, 1px, 1px, 1px) !important;
   clip-path: inset(50%) !important;
   height: 1px !important;
-
   position: absolute !important;
   width: 1px !important;
 }
@@ -377,23 +320,17 @@ header {
 .btn_header_start {
   box-sizing: border-box;
   min-width: 0;
-  display: inline-block;
-  text-align: center;
   line-height: inherit;
-  text-decoration: none;
   font-size: inherit;
   border: 0;
   font-family: DM Sans, sans-serif;
   font-weight: 700;
   border-radius: 5px;
   cursor: pointer;
-  align-items: center;
-  justify-content: center;
-  transition: 0.3s ease-in-out 0s;
   white-space: nowrap;
   background-color: #fff0d7;
   color: #e6a740;
-  padding: 0 16px;
+  padding: 5.5px 17px 6.5px 16px;
   min-height: 45px;
   margin-left: 30px;
 }
@@ -416,3 +353,23 @@ header {
   line-height: 24px;
   /* 133.333% */
 }
+
+/* ICON SPONSORED */
+.icon_sponsored .logo_image_paypal{
+  margin-left: 21px ;
+}
+
+.icon_sponsored .logo_image_google{
+  margin-left: 28px ;
+}
+
+.icon_sponsored .logo_image_dropbox{
+  margin-left: 27px ;
+}
+
+
+.icon_search_nav{
+  width: 20px;
+  line-height: 0.5;
+}
+

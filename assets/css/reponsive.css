@@ -234,13 +234,13 @@
 @media screen and (min-width: 480px) {
   .css_button_email_send {
     min-height: 50px;
-    padding: 0 25px;
+    padding: 10px 30px;
   }
   .form_email input {
-    min-height: 50px;
+    min-height: 60px;
   }
   .form_email button {
-    font-size: 14px;
+    font-size: 18px;
     min-height: 50px;
   }
 }
